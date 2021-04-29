@@ -1,0 +1,132 @@
+@media (min-width: 740px) and (max-width: 980px) {
+    .logo {
+        margin-left: 40px;
+    }
+    .btn-menu {
+        display: block;
+        margin-right: 40px;
+    }
+
+    .btn-img {
+        width: 30px;
+    }
+
+    .navbar {
+        display: none;
+    }
+    .nav-text h1 {
+        font-size: 2.75em;
+    }
+    
+    .section-text {
+        flex-direction: column;
+    }
+
+    .text, .text2, .text3 {
+        max-width: 100%;
+    }
+
+    .text h3, .text2 h3, .text3 h3 {
+        padding-top: 15px;
+        text-align: center;
+    }
+    .text p, .text2 p, .text3 p {
+        text-align: center;
+    }
+    .text2 {
+        border-right: none;
+        border-left: none;
+        border-top: 1px solid #dbdbdb;
+        border-bottom: 1px solid #dbdbdb;
+    }
+    .btn {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    
+    .contributors-profile {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile {
+        margin: 20px;
+        padding: 40px;
+    }
+    
+}
+
+
+@media (max-width: 739px) {
+    .menu-header {
+        max-width: 400px;
+        flex-direction: row;
+    }
+    .btn-menu {
+        display: block;
+    }
+    .btn-img {
+        width: 30px;
+    }
+    .navbar {
+        display: none;
+    }
+
+    .section-text {
+        max-width: 100%;
+    }
+
+    .nav-text h1 {
+        font-size: 2.5em;
+    }
+    .nav-text p {
+        font-size: 0.875em;
+    }
+    .text, .text2, .text3 {
+        max-width: 100%; 
+    }
+    .text h3, .text2 h3, .text3 h3 {
+        padding-top: 15px;
+        text-align: center;
+    }
+    .text p, .text2 p, .text3 p {
+        text-align: center;
+    }
+    .text2 {
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #dbdbdb;
+        border-bottom: 1px solid #dbdbdb;
+    }
+    .btn {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .contributors-profile {
+        max-width: 100%;
+    }
+    .profile {
+        display: block;
+        max-width: 100%;
+        padding: 30px;
+        margin: 20px 0;
+        align-self: center;
+    }
+    .btn {
+        margin-bottom: 20px;
+    }
+    .corporation {
+        order: 2;
+    }
+    .corporation p {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .icon-redes {
+        text-align: center;
+    }
+   
+
+}

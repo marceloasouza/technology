@@ -1,0 +1,262 @@
+/* Header */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.header {
+    background: url("../img/bg2.jpg") no-repeat center;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 450px;
+    border-top: 0.5em solid #5385c1;
+    margin-bottom: 70px;
+}
+
+.btn-menu{
+    display:none;
+}
+
+.menu {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.menu-header {
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    list-style: none;
+    font-size: 1.125em;
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+
+.nav-text {
+    margin-top: 40px;
+}
+
+.nav-text h1 {
+    font-size: 3.5em;
+    line-height: 1em;
+    color: #FFF;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.nav-text p {
+    font-size: 1em;
+    color: #FFF;
+    text-align: center;
+}
+
+.logo a {
+    font-size: 1.125em;
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Section main */
+
+.section-main {
+    
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+
+.section-text {
+    padding: 30px;
+}
+
+.text {
+    padding: 0 15px 0 0;
+}
+
+.text2 {
+    padding: 0 10px 0 15px;
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+}
+
+.text h3, .text2 h3, .text3 h3 {
+    font-size: 1.35em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 0 0 1em 0;
+    color: #5385c1;
+    flex-wrap: wrap;
+}
+
+.text3 {
+    padding-left: 15px;
+}
+
+.text p, .text2 p, .text3 p {
+    margin: 0 0 2em 0;
+    color: #9a9a9a;
+}
+
+.btn {
+    background: #5385c1;
+    color: #FFF !important;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 1.5em;
+    text-align: center;
+    
+}
+
+/* Contributors Profile*/
+
+.contributors {
+    max-width: 100%;
+    background: #5385c1;
+    padding: 80px 0;
+}
+
+.contributors h2 {
+    font-size: 2.75em;
+    margin: 0 0 .5em 0;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #FFF;
+    text-align: center;
+}
+
+.contributors p {
+    font-size: 1em;
+    color: #bacee6;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.contributors-profile {
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.profile {
+    padding: 3em 1,5em;
+    margin-bottom: 2em;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.profile:hover {
+    border: 2px solid #FFF;
+}
+
+.profile img {
+    width: 168px;
+    height: 168px;
+    margin: 0 auto;
+    padding: 30px 0;
+    border: 0;
+    border-radius: 50%;
+}
+
+.profile h3 {
+    font-size: 1.35em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.profile p {
+    margin: 0 0 3em 0;
+    color: #bacee6;
+}
+
+/* Planet */
+
+.planet {
+    max-width: 100%;
+    padding: 80px 0;
+}
+
+.planet h2 {
+    font-size: 2.75em;
+    font-weight: 100;
+    line-height: 1.5em;
+    margin: 0 0 .5em 0;
+    color: #5385c1;
+    padding: 0;
+    border: 0;
+    text-align: center;
+}
+
+.planet p {
+    font-size: 1em;
+    color: #bbb;
+    margin: 0 0 3.5em 0;
+    text-align: center;
+}
+
+.sec-planet {
+    max-width: 570px;
+}
+
+.sec-planet h3 {
+    font-size: 1.35em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 0 0 1em 0;
+    padding: 0;
+    border: 0;
+    color: #5385c1;
+}
+
+.sec-planet p {
+    margin: 0 0 2em 0;
+    color: #9a9a9a;
+    text-align: left;
+}
+
+.sec-planet img {
+    width: 560px;
+    height: 170px;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+
+.footer {
+    border-top: 1px solid #dbdbdb;
+    padding: 40px 0 20px 0;
+}
+
+.corporation {
+    align-items: flex-start;
+}
+
+.corporation p {
+    font-size: 1.125em;
+    color: #bbb;
+}
+
+.icon-redes li {
+    display: inline-block;
+    padding: 0 5px;
+    
+}
+
+.icon-redes {
+    text-align: right;
+}
+
+
+
