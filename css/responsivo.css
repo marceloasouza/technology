@@ -60,6 +60,9 @@
 
 
 @media (max-width: 739px) {
+    .header {
+        margin-bottom: 30px;
+    }
     .logo {
         margin-left: 20px;
     }
