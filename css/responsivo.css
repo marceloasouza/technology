@@ -108,6 +108,10 @@
         margin-bottom: 20px;
         padding: 0;
     }
+    
+    .text, .text2, .text3 {
+        padding: 0;
+    }
     .contributors-profile {
         max-width: 100%;
     }
@@ -118,9 +122,7 @@
         margin: 20px 0;
         align-self: center;
     }
-    .btn {
-        margin-bottom: 20px;
-    }
+    
     .corporation {
         order: 2;
     }
