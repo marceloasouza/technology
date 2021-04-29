@@ -59,6 +59,9 @@
 
 
 @media (max-width: 739px) {
+    .logo {
+        margin-left: 20px;
+    }
     .menu-header {
         max-width: 400px;
         flex-direction: row;
@@ -68,6 +71,7 @@
     }
     .btn-img {
         width: 30px;
+        padding-right: 20px;
     }
     .navbar {
         display: none;
