@@ -81,6 +81,10 @@
         display: none;
     }
 
+    .section-main {
+        margin-bottom: 30px;
+    }
+
     .section-text {
         max-width: 100%;
     }
@@ -116,6 +120,9 @@
     .text, .text2, .text3 {
         padding: 0;
     }
+    .contributors {
+        padding: 30px 0;
+    }
     .contributors-profile {
         max-width: 100%;
     }
@@ -126,7 +133,9 @@
         margin: 20px 0;
         align-self: center;
     }
-    
+    .planet {
+        padding: 30px 0;
+    }
     .corporation {
         order: 2;
     }
